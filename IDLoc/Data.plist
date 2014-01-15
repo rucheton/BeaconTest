@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>B9407F30-F5F8-466E-AFF9-25556B57FE6D</key>
+	<dict>
+		<key>beacons</key>
+		<dict>
+			<key>5807736119</key>
+			<dict>
+				<key>trigger</key>
+				<integer>3</integer>
+				<key>color</key>
+				<string>PURPLE</string>
+				<key>name</key>
+				<string>Pôle Front</string>
+				<key>badge</key>
+				<string>badge-lab.png</string>
+				<key>description</key>
+				<string>Owning innovation and technology has become fundamental to the creative solution. A campaign is no longer all we do. It’s a sophisticated piece of software, it’s integrated, it’s social, it’s alive. Our technical department curate and develop emerging technologies to engage people wherever they are. We explore new markets and applications to influence popular culture through content, advertising, utility and gaming.</string>
+			</dict>
+			<key>2125565076</key>
+			<dict>
+				<key>trigger</key>
+				<integer>1</integer>
+				<key>color</key>
+				<string>GREEN</string>
+				<key>name</key>
+				<string>Cafétéria</string>
+				<key>badge</key>
+				<string>badge-coffee.png</string>
+				<key>description</key>
+				<string>Les cafétérias se trouvent le plus souvent dans les entreprises, les immeubles de bureaux, les infrastructures culturelles (comme les musées) et sportives ou dans les écoles. Elles peuvent être accessibles au grand public ou réservées aux membres du personnel.</string>
+			</dict>
+			<key>3031027185</key>
+			<dict>
+				<key>trigger</key>
+				<integer>1</integer>
+				<key>color</key>
+				<string>BLUE</string>
+				<key>name</key>
+				<string>La Tulipe</string>
+				<key>badge</key>
+				<string>badge-plant.png</string>
+				<key>description</key>
+				<string>Les tulipes forment un genre (Tulipa) de plantes herbacées de la famille des Liliacées, qui compte une centaine d&apos;espèces originaires des régions tempérées chaudes de l&apos;Ancien monde. Plusieurs espèces sont largement cultivées comme plantes ornementales et ont donné lieu à la création de plusieurs milliers de variétés.</string>
+			</dict>
+			<key>50001000</key>
+			<dict>
+				<key>trigger</key>
+				<integer>1</integer>
+				<key>color</key>
+				<string>COMPUTER</string>
+				<key>name</key>
+				<string>Clément</string>
+				<key>badge</key>
+				<string>badge-diamond.png</string>
+				<key>description</key>
+				<string>Just because.</string>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
