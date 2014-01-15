@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		BE288A88187C50A30023635E /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE288A87187C50A30023635E /* CircleView.m */; };
 		BE48062C187AEC9E00BBB4E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE48062A187AEC9E00BBB4E5 /* Main.storyboard */; };
-		BE480630187B0D6000BBB4E5 /* libEstimoteSDK7.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE48062F187B0D6000BBB4E5 /* libEstimoteSDK7.a */; };
 		BE480632187B0EC800BBB4E5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE480631187B0EC800BBB4E5 /* SystemConfiguration.framework */; };
 		BE480634187B0ECC00BBB4E5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE480633187B0ECC00BBB4E5 /* CoreLocation.framework */; };
 		BE480636187B0FE700BBB4E5 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE480635187B0FE700BBB4E5 /* CoreBluetooth.framework */; };
@@ -32,8 +31,6 @@
 		BEC401651876F48A00C22228 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC401641876F48A00C22228 /* XCTest.framework */; };
 		BEC401661876F48A00C22228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC401451876F48A00C22228 /* Foundation.framework */; };
 		BEC401671876F48A00C22228 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC401491876F48A00C22228 /* UIKit.framework */; };
-		BEC4016F1876F48A00C22228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEC4016D1876F48A00C22228 /* InfoPlist.strings */; };
-		BEC401711876F48A00C22228 /* IDLocTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC401701876F48A00C22228 /* IDLocTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +47,6 @@
 		BE288A86187C50A30023635E /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircleView.h; path = ../CircleView.h; sourceTree = "<group>"; };
 		BE288A87187C50A30023635E /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircleView.m; path = ../CircleView.m; sourceTree = "<group>"; };
 		BE48062B187AEC9E00BBB4E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = IDLoc/en.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BE48062F187B0D6000BBB4E5 /* libEstimoteSDK7.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEstimoteSDK7.a; path = EstimoteSDK/libEstimoteSDK7.a; sourceTree = "<group>"; };
 		BE480631187B0EC800BBB4E5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BE480633187B0ECC00BBB4E5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BE480635187B0FE700BBB4E5 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
@@ -78,9 +74,6 @@
 		BEC4015D1876F48A00C22228 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BEC401631876F48A00C22228 /* IDLocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDLocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC401641876F48A00C22228 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BEC4016C1876F48A00C22228 /* IDLocTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IDLocTests-Info.plist"; sourceTree = "<group>"; };
-		BEC4016E1876F48A00C22228 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BEC401701876F48A00C22228 /* IDLocTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDLocTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +84,6 @@
 				BE480636187B0FE700BBB4E5 /* CoreBluetooth.framework in Frameworks */,
 				BE480634187B0ECC00BBB4E5 /* CoreLocation.framework in Frameworks */,
 				BE480632187B0EC800BBB4E5 /* SystemConfiguration.framework in Frameworks */,
-				BE480630187B0D6000BBB4E5 /* libEstimoteSDK7.a in Frameworks */,
 				BEC401481876F48A00C22228 /* CoreGraphics.framework in Frameworks */,
 				BEC4014A1876F48A00C22228 /* UIKit.framework in Frameworks */,
 				BEC401461876F48A00C22228 /* Foundation.framework in Frameworks */,
@@ -115,7 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				BEC4014B1876F48A00C22228 /* IDLoc */,
-				BEC4016A1876F48A00C22228 /* IDLocTests */,
 				BEC401441876F48A00C22228 /* Frameworks */,
 				BEC401431876F48A00C22228 /* Products */,
 			);
@@ -136,7 +127,6 @@
 				BE480635187B0FE700BBB4E5 /* CoreBluetooth.framework */,
 				BE480633187B0ECC00BBB4E5 /* CoreLocation.framework */,
 				BE480631187B0EC800BBB4E5 /* SystemConfiguration.framework */,
-				BE48062F187B0D6000BBB4E5 /* libEstimoteSDK7.a */,
 				BEC401451876F48A00C22228 /* Foundation.framework */,
 				BEC401471876F48A00C22228 /* CoreGraphics.framework */,
 				BEC401491876F48A00C22228 /* UIKit.framework */,
@@ -177,24 +167,6 @@
 				BEC401511876F48A00C22228 /* main.m */,
 				BEC401531876F48A00C22228 /* IDLoc-Prefix.pch */,
 				BEA1387B18800FE400DFB947 /* Data.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BEC4016A1876F48A00C22228 /* IDLocTests */ = {
-			isa = PBXGroup;
-			children = (
-				BEC401701876F48A00C22228 /* IDLocTests.m */,
-				BEC4016B1876F48A00C22228 /* Supporting Files */,
-			);
-			path = IDLocTests;
-			sourceTree = "<group>";
-		};
-		BEC4016B1876F48A00C22228 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BEC4016C1876F48A00C22228 /* IDLocTests-Info.plist */,
-				BEC4016D1876F48A00C22228 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -300,7 +272,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC4016F1876F48A00C22228 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +294,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEC401711876F48A00C22228 /* IDLocTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,14 +321,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				BEC4014F1876F48A00C22228 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BEC4016D1876F48A00C22228 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BEC4016E1876F48A00C22228 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -450,15 +412,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/EstimoteSDK/Headers",
 				);
 				INFOPLIST_FILE = "IDLoc/IDLoc-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/cleruc/Documents/Xcode/Protos/IDLoc/EstimoteSDK,
-					"$(SRCROOT)/EstimoteSDK",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "13357127-2D1E-4ADB-AC62-48FF28B25642";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,15 +435,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/EstimoteSDK/Headers",
 				);
 				INFOPLIST_FILE = "IDLoc/IDLoc-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					/Users/cleruc/Documents/Xcode/Protos/IDLoc/EstimoteSDK,
-					"$(SRCROOT)/EstimoteSDK",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "13357127-2D1E-4ADB-AC62-48FF28B25642";
 				TARGETED_DEVICE_FAMILY = "1,2";
