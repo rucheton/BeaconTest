@@ -8,25 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		BE288A88187C50A30023635E /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE288A87187C50A30023635E /* CircleView.m */; };
+		BE431467188968FC000393A6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE431465188968FC000393A6 /* DetailViewController.m */; };
 		BE48062C187AEC9E00BBB4E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE48062A187AEC9E00BBB4E5 /* Main.storyboard */; };
 		BE480632187B0EC800BBB4E5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE480631187B0EC800BBB4E5 /* SystemConfiguration.framework */; };
 		BE480634187B0ECC00BBB4E5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE480633187B0ECC00BBB4E5 /* CoreLocation.framework */; };
 		BE480636187B0FE700BBB4E5 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE480635187B0FE700BBB4E5 /* CoreBluetooth.framework */; };
+		BE5BAC5D188D3DA90067779E /* CRTools.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5BAC5C188D3DA90067779E /* CRTools.m */; };
 		BE6543F9188056120025E3E6 /* BeaconCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BE6543F8188056120025E3E6 /* BeaconCell.m */; };
 		BE6543FB188059AC0025E3E6 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE6543FA188059AC0025E3E6 /* background@2x.png */; };
+		BE8304231886E8B40048C3BD /* code.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE83041E1886E8B40048C3BD /* code.jpg */; };
+		BE8304241886E8B40048C3BD /* expandables.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE83041F1886E8B40048C3BD /* expandables.jpg */; };
+		BE8304251886E8B40048C3BD /* iznogoud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE8304201886E8B40048C3BD /* iznogoud.jpg */; };
+		BE8304261886E8B40048C3BD /* simpsons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE8304211886E8B40048C3BD /* simpsons.jpg */; };
+		BE8304271886E8B40048C3BD /* springbreak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BE8304221886E8B40048C3BD /* springbreak.jpg */; };
+		BE830438188708B60048C3BD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BE830432188708B60048C3BD /* background.png */; };
+		BE852E8E188FC5A600EDA6EA /* libEstimoteSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE852E8D188FC5A600EDA6EA /* libEstimoteSDK.a */; };
 		BEA1387C18800FE400DFB947 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = BEA1387B18800FE400DFB947 /* Data.plist */; };
-		BEA138821880120C00DFB947 /* badge-coffee@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA1387D1880120C00DFB947 /* badge-coffee@2x.png */; };
-		BEA138831880120C00DFB947 /* badge-diamond@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA1387E1880120C00DFB947 /* badge-diamond@2x.png */; };
-		BEA138841880120C00DFB947 /* badge-lab@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA1387F1880120C00DFB947 /* badge-lab@2x.png */; };
-		BEA138851880120C00DFB947 /* badge-paint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA138801880120C00DFB947 /* badge-paint@2x.png */; };
-		BEA138861880120C00DFB947 /* badge-plant@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA138811880120C00DFB947 /* badge-plant@2x.png */; };
+		BEB78EC6188EC9BB00373E89 /* radar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEB78EC4188EC9BB00373E89 /* radar@2x.png */; };
+		BEB78EC7188EC9BB00373E89 /* radar.png in Resources */ = {isa = PBXBuildFile; fileRef = BEB78EC5188EC9BB00373E89 /* radar.png */; };
 		BEC401461876F48A00C22228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC401451876F48A00C22228 /* Foundation.framework */; };
 		BEC401481876F48A00C22228 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC401471876F48A00C22228 /* CoreGraphics.framework */; };
 		BEC4014A1876F48A00C22228 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC401491876F48A00C22228 /* UIKit.framework */; };
 		BEC401501876F48A00C22228 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEC4014E1876F48A00C22228 /* InfoPlist.strings */; };
 		BEC401521876F48A00C22228 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC401511876F48A00C22228 /* main.m */; };
 		BEC401561876F48A00C22228 /* CRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC401551876F48A00C22228 /* CRAppDelegate.m */; };
-		BEC4015C1876F48A00C22228 /* CRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC4015B1876F48A00C22228 /* CRViewController.m */; };
+		BEC4015C1876F48A00C22228 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEC4015B1876F48A00C22228 /* MainViewController.m */; };
 		BEC4015E1876F48A00C22228 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC4015D1876F48A00C22228 /* Images.xcassets */; };
 		BEC401651876F48A00C22228 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC401641876F48A00C22228 /* XCTest.framework */; };
 		BEC401661876F48A00C22228 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEC401451876F48A00C22228 /* Foundation.framework */; };
@@ -46,19 +52,27 @@
 /* Begin PBXFileReference section */
 		BE288A86187C50A30023635E /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircleView.h; path = ../CircleView.h; sourceTree = "<group>"; };
 		BE288A87187C50A30023635E /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircleView.m; path = ../CircleView.m; sourceTree = "<group>"; };
+		BE431464188968FC000393A6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BE431465188968FC000393A6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		BE48062B187AEC9E00BBB4E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = IDLoc/en.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE480631187B0EC800BBB4E5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		BE480633187B0ECC00BBB4E5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BE480635187B0FE700BBB4E5 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		BE5BAC5B188D3DA90067779E /* CRTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRTools.h; sourceTree = "<group>"; };
+		BE5BAC5C188D3DA90067779E /* CRTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRTools.m; sourceTree = "<group>"; };
 		BE6543F7188056120025E3E6 /* BeaconCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BeaconCell.h; path = ../BeaconCell.h; sourceTree = "<group>"; };
 		BE6543F8188056120025E3E6 /* BeaconCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BeaconCell.m; path = ../BeaconCell.m; sourceTree = "<group>"; };
 		BE6543FA188059AC0025E3E6 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = SOURCE_ROOT; };
+		BE83041E1886E8B40048C3BD /* code.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = code.jpg; sourceTree = "<group>"; };
+		BE83041F1886E8B40048C3BD /* expandables.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = expandables.jpg; sourceTree = "<group>"; };
+		BE8304201886E8B40048C3BD /* iznogoud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iznogoud.jpg; sourceTree = "<group>"; };
+		BE8304211886E8B40048C3BD /* simpsons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = simpsons.jpg; sourceTree = "<group>"; };
+		BE8304221886E8B40048C3BD /* springbreak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = springbreak.jpg; sourceTree = "<group>"; };
+		BE830432188708B60048C3BD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = SOURCE_ROOT; };
+		BE852E8D188FC5A600EDA6EA /* libEstimoteSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libEstimoteSDK.a; path = "../Estimote iOS-SDK/EstimoteSDK/libEstimoteSDK.a"; sourceTree = "<group>"; };
 		BEA1387B18800FE400DFB947 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
-		BEA1387D1880120C00DFB947 /* badge-coffee@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "badge-coffee@2x.png"; sourceTree = SOURCE_ROOT; };
-		BEA1387E1880120C00DFB947 /* badge-diamond@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "badge-diamond@2x.png"; sourceTree = SOURCE_ROOT; };
-		BEA1387F1880120C00DFB947 /* badge-lab@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "badge-lab@2x.png"; sourceTree = SOURCE_ROOT; };
-		BEA138801880120C00DFB947 /* badge-paint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "badge-paint@2x.png"; sourceTree = SOURCE_ROOT; };
-		BEA138811880120C00DFB947 /* badge-plant@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "badge-plant@2x.png"; sourceTree = SOURCE_ROOT; };
+		BEB78EC4188EC9BB00373E89 /* radar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "radar@2x.png"; sourceTree = "<group>"; };
+		BEB78EC5188EC9BB00373E89 /* radar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radar.png; sourceTree = "<group>"; };
 		BEC401421876F48A00C22228 /* IDLoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDLoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC401451876F48A00C22228 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BEC401471876F48A00C22228 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -69,8 +83,8 @@
 		BEC401531876F48A00C22228 /* IDLoc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IDLoc-Prefix.pch"; sourceTree = "<group>"; };
 		BEC401541876F48A00C22228 /* CRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAppDelegate.h; sourceTree = "<group>"; };
 		BEC401551876F48A00C22228 /* CRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAppDelegate.m; sourceTree = "<group>"; };
-		BEC4015A1876F48A00C22228 /* CRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRViewController.h; sourceTree = "<group>"; };
-		BEC4015B1876F48A00C22228 /* CRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRViewController.m; sourceTree = "<group>"; };
+		BEC4015A1876F48A00C22228 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		BEC4015B1876F48A00C22228 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		BEC4015D1876F48A00C22228 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BEC401631876F48A00C22228 /* IDLocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDLocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC401641876F48A00C22228 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -81,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE852E8E188FC5A600EDA6EA /* libEstimoteSDK.a in Frameworks */,
 				BE480636187B0FE700BBB4E5 /* CoreBluetooth.framework in Frameworks */,
 				BE480634187B0ECC00BBB4E5 /* CoreLocation.framework in Frameworks */,
 				BE480632187B0EC800BBB4E5 /* SystemConfiguration.framework in Frameworks */,
@@ -124,6 +139,7 @@
 		BEC401441876F48A00C22228 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE852E8D188FC5A600EDA6EA /* libEstimoteSDK.a */,
 				BE480635187B0FE700BBB4E5 /* CoreBluetooth.framework */,
 				BE480633187B0ECC00BBB4E5 /* CoreLocation.framework */,
 				BE480631187B0EC800BBB4E5 /* SystemConfiguration.framework */,
@@ -143,12 +159,16 @@
 				BE48062A187AEC9E00BBB4E5 /* Main.storyboard */,
 				BEC401541876F48A00C22228 /* CRAppDelegate.h */,
 				BEC401551876F48A00C22228 /* CRAppDelegate.m */,
-				BEC4015A1876F48A00C22228 /* CRViewController.h */,
-				BEC4015B1876F48A00C22228 /* CRViewController.m */,
+				BEC4015A1876F48A00C22228 /* MainViewController.h */,
+				BEC4015B1876F48A00C22228 /* MainViewController.m */,
 				BE288A86187C50A30023635E /* CircleView.h */,
 				BE288A87187C50A30023635E /* CircleView.m */,
+				BE431464188968FC000393A6 /* DetailViewController.h */,
+				BE431465188968FC000393A6 /* DetailViewController.m */,
 				BEC4015D1876F48A00C22228 /* Images.xcassets */,
 				BEC4014C1876F48A00C22228 /* Supporting Files */,
+				BE5BAC5B188D3DA90067779E /* CRTools.h */,
+				BE5BAC5C188D3DA90067779E /* CRTools.m */,
 			);
 			path = IDLoc;
 			sourceTree = "<group>";
@@ -156,12 +176,15 @@
 		BEC4014C1876F48A00C22228 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BEB78EC4188EC9BB00373E89 /* radar@2x.png */,
+				BEB78EC5188EC9BB00373E89 /* radar.png */,
+				BE83041E1886E8B40048C3BD /* code.jpg */,
+				BE83041F1886E8B40048C3BD /* expandables.jpg */,
+				BE8304201886E8B40048C3BD /* iznogoud.jpg */,
+				BE8304211886E8B40048C3BD /* simpsons.jpg */,
+				BE8304221886E8B40048C3BD /* springbreak.jpg */,
+				BE830432188708B60048C3BD /* background.png */,
 				BE6543FA188059AC0025E3E6 /* background@2x.png */,
-				BEA1387D1880120C00DFB947 /* badge-coffee@2x.png */,
-				BEA1387E1880120C00DFB947 /* badge-diamond@2x.png */,
-				BEA1387F1880120C00DFB947 /* badge-lab@2x.png */,
-				BEA138801880120C00DFB947 /* badge-paint@2x.png */,
-				BEA138811880120C00DFB947 /* badge-plant@2x.png */,
 				BEC4014D1876F48A00C22228 /* IDLoc-Info.plist */,
 				BEC4014E1876F48A00C22228 /* InfoPlist.strings */,
 				BEC401511876F48A00C22228 /* main.m */,
@@ -255,14 +278,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEA138841880120C00DFB947 /* badge-lab@2x.png in Resources */,
+				BEB78EC6188EC9BB00373E89 /* radar@2x.png in Resources */,
+				BE8304251886E8B40048C3BD /* iznogoud.jpg in Resources */,
+				BEB78EC7188EC9BB00373E89 /* radar.png in Resources */,
+				BE8304271886E8B40048C3BD /* springbreak.jpg in Resources */,
+				BE8304241886E8B40048C3BD /* expandables.jpg in Resources */,
 				BE48062C187AEC9E00BBB4E5 /* Main.storyboard in Resources */,
 				BEC4015E1876F48A00C22228 /* Images.xcassets in Resources */,
-				BEA138831880120C00DFB947 /* badge-diamond@2x.png in Resources */,
-				BEA138861880120C00DFB947 /* badge-plant@2x.png in Resources */,
-				BEA138821880120C00DFB947 /* badge-coffee@2x.png in Resources */,
 				BEA1387C18800FE400DFB947 /* Data.plist in Resources */,
-				BEA138851880120C00DFB947 /* badge-paint@2x.png in Resources */,
+				BE8304261886E8B40048C3BD /* simpsons.jpg in Resources */,
+				BE8304231886E8B40048C3BD /* code.jpg in Resources */,
+				BE830438188708B60048C3BD /* background.png in Resources */,
 				BE6543FB188059AC0025E3E6 /* background@2x.png in Resources */,
 				BEC401501876F48A00C22228 /* InfoPlist.strings in Resources */,
 			);
@@ -283,10 +309,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE288A88187C50A30023635E /* CircleView.m in Sources */,
+				BE431467188968FC000393A6 /* DetailViewController.m in Sources */,
+				BE5BAC5D188D3DA90067779E /* CRTools.m in Sources */,
 				BEC401521876F48A00C22228 /* main.m in Sources */,
 				BE6543F9188056120025E3E6 /* BeaconCell.m in Sources */,
 				BEC401561876F48A00C22228 /* CRAppDelegate.m in Sources */,
-				BEC4015C1876F48A00C22228 /* CRViewController.m in Sources */,
+				BEC4015C1876F48A00C22228 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,14 +438,18 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IDLoc/IDLoc-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Estimote iOS-SDK/EstimoteSDK/Headers/\"",
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "IDLoc/IDLoc-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/cleruc/Code/Estimote\\ iOS-SDK/EstimoteSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "13357127-2D1E-4ADB-AC62-48FF28B25642";
+				PROVISIONING_PROFILE = "A70F2C13-4D72-451A-8D9E-2A6AEDC7913E";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -433,14 +465,18 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "IDLoc/IDLoc-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../Estimote iOS-SDK/EstimoteSDK/Headers/\"",
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "IDLoc/IDLoc-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/cleruc/Code/Estimote\\ iOS-SDK/EstimoteSDK",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "13357127-2D1E-4ADB-AC62-48FF28B25642";
+				PROVISIONING_PROFILE = "A70F2C13-4D72-451A-8D9E-2A6AEDC7913E";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};

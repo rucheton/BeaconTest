@@ -13,11 +13,5 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
-    #import <ESTBeacon.h>
-
-    /** Degrees to Radian **/
-    #define degreesToRadians( degrees ) ( ( degrees ) / 180.0 * M_PI )
-
-    /** Radians to Degrees **/
-    #define radiansToDegrees( radians ) ( ( radians ) * ( 180.0 / M_PI ) )
+    #import "CRTools.h"
 #endif

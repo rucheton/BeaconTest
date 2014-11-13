@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CRViewController : UIViewController
+@interface MainViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITableView *tableview;
-@property (weak, nonatomic) IBOutlet UICollectionView *collectionview;
 - (IBAction)toggleDev:(id)sender;
 
 @end
